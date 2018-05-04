@@ -13,6 +13,7 @@ import Data.Aeson
 import Data.Aeson.QQ
 import Data.HashMap.Strict (HashMap)
 import qualified Data.Set as Set
+import Data.Semigroup ((<>))
 import Data.Text (Text)
 
 import Data.Swagger
